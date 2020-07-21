@@ -1,0 +1,6 @@
+Get Index Name
+http://172.16.80.161:9200/_cat/indices?v&h=i
+
+Delete Index
+curl -X DELETE 'http://localhost:9200/_all'
+curl -XDELETE "172.16.80.161:9200/*"
